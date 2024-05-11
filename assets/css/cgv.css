@@ -1,0 +1,32 @@
+body{
+    padding: 40px 200px 0 200px;
+}
+h1{
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding-left: 40px;
+}
+@media screen and (max-width: 640px) {
+    body{
+        padding: 40px 100px 0 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        padding: 115px 0 0 30px;
+
+    }
+}
