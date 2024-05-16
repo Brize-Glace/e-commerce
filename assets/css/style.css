@@ -32,13 +32,11 @@ h2 {
 
 }
 
-
-
 .product-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 4%;
+    margin-bottom: 150px;
 }
 
 .product-grid {
@@ -49,6 +47,7 @@ h2 {
     max-width: 840px;
     margin: 0 auto;
     justify-items: center;
+    align-items: center;
 }
 
 .card {
@@ -63,9 +62,8 @@ h2 {
     width: 100%;
     max-width: 420px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 80vh;
+    min-height: 600px;
 }
-
 .card-pill {
     position: absolute;
     padding: 6px 12px;
