@@ -6,5 +6,3 @@ if (menuHamburger && navLinks) {
         navLinks.classList.toggle('mobile-menu');
     });
 }
-
-
